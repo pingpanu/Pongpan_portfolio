@@ -1,0 +1,16 @@
+.menu-line {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.menu-open .top-line {
+  transform: translateY(4px) rotate(45deg);
+}
+
+.menu-open .middle-line {
+  opacity: 0;
+}
+
+.menu-open .bottom-line {
+  transform: translateY(-4px) rotate(-45deg);
+}

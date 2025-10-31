@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Pingpanu Portfolio</title>
+  <link href="/src/css/output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+  <link href="/src/css/hamburger.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-cyan-100">
+  <nav class="sticky top-0 bg-linear-to-r from-teal-500 to-cyan-100">
+    <div class="flex flex-row justify-between">
+      <div class="w-1/4 sm:w-full">
+        <img src=/src/images/portfolio.png alt="icon" class="max-h-[60px] m-2" />
+      </div>
+      <div class="hidden sm:ml-6 sm:block">
+        <div class="flex space-x-4">
+          <a href="#about_me" class="rounded-md px-3 py-2 hover:bg-cyan-700 hover:text-white">About</a>
+          <a href="#professional_skill" class="rounded-md px-3 py-2 hover:bg-cyan-700 hover:text-white">Professional
+            Skill</a>
+          <a href="#experience" class="rounded-md px-3 py-2 hover:bg-cyan-700 hover:text-white">Experiences</a>
+        </div>
+      </div>
+      <div id="main-mobile_hamburger" class="w-1/4 sm:hidden">
+        <button type="button" aria-controls="mobile-menu" aria-expanded="false" class="absolute top-0 right-0 m-5">
+          <span class="absolute -inset-0.5"></span>
+          <span class="sr-only">Open main menu</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"
+            class="size-8">
+            <path d="M3.75 6.75h16.5" stroke-linecap="round" stroke-linejoin="round" class="menu-line top-line" />
+            <path d="M3.75 12h16.5" stroke-linecap="round" stroke-linejoin="round" class="menu-line middle-line" />
+            <path d="M3.75 17.25h16.5" stroke-linecap="round" stroke-linejoin="round" class="menu-line bottom-line" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </nav>
+  <!-- mobile dropdown menu -->
+  <div id="mobile-menu" class="hidden absolute w-1/2 bg-cyan-100 right-0 rounded-md">
+    <a href="#about_me" class="block hover:bg-gray-400 font-bold px-5">About</a>
+    <a href="#professional_skill" class="block hover:bg-gray-400 font-bold px-5">Professional
+      Skill</a>
+    <a href="#experience" class="block hover:bg-gray-400 font-bold px-5">Experiences</a>
+  </div>
+  <section id="about_me">
+    <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-6xl my-4">
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img src="/src/images/pongpan_main_image.jpg" class="object-cover md:h-full md:w-96" />
+        </div>
+        <div id="my_personal_info" class="grid-rows-2 gap-2 content-stretch">
+          <div class="text-3xl text-wrap text-center font-bold m-2">
+            Pongpan Ingpanuwong
+          </div>
+          <div class="text-xl text-center text-wrap font-normal m-2">
+            42 Cadet, reskilled Mechanical Engineer
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="professional_skill">
+    <div class="mx-auto max-w-md rounded-xl bg-white shadow-md md:max-w-6xl my-4">
+      <div class="rounded-xl bg-teal-500 text-2xl p-4 font-bold">
+        Professional Skill
+      </div>
+      <div>
+        <ul class="list-disc list-inside p-4">
+          <li>3D modelling (AutoCAD, Revit, Solidworks, Blender)</li>
+          <li>Communication in English (850 TOEIC, 7.5 IELTS)</li>
+          <li>Docker Container setup</li>
+          <li>Website development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <div class="mx-auto max-w-md rounded-xl bg-white shadow-md md:max-w-6xl my-4">
+      <div class="rounded-xl bg-teal-500 text-2xl p-4 font-bold">
+        Work Experiences
+      </div>
+      <div id="dynamic-experience-display"></div>
+    </div>
+  </section>
+
+  <script src="/src/js/indexHamburger.js"></script>
+  <script src="/src/js/experienceCard.js" type="module"></script>
+
+  <style>
+
+  </style>
+</body>
+
+</html>
