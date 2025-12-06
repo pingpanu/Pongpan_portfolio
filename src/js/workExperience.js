@@ -5,7 +5,7 @@ const work_experience = [
         "position": "Bangkok Yellow Line Consultant",
         "company": "Professional System Engineering Co., Ltd.",
         "summary": "Coordinate with Sino-Thai Engineering in mechanical systems inspection and commision.",
-        "header": "/src/images/Thailand-Bangkok-Yellow-Line-monorail-Shutterstock-pic.jpg",
+        "header": "./src/images/Thailand-Bangkok-Yellow-Line-monorail-Shutterstock-pic.jpg",
         "buttonName": "bangkok-yellow-line",
         "linked": "https://www.mrta.co.th/en/the-yellow-line"
     },
@@ -13,7 +13,7 @@ const work_experience = [
         "position": "Sale Support",
         "company": "Kruger Ventilation Industry Asia Co., Ltd.",
         "summary": "Support the sale department with certified data, and coordinate with other department in developing new products.",
-        "header": "/src/images/211.png",
+        "header": "./src/images/211.png",
         "buttonName": "kruger-ventilation",
         "linked": "https://www.krugerfan.com/news/view/25/?lang=en"
     },
@@ -21,7 +21,7 @@ const work_experience = [
         "position": "HVAC Engineer",
         "company": "Powerline Co., Ltd.",
         "summary": "Prepare the installation of HVAC system of Suvarnabhumi Airport Sattelite Terminal 1 (SAT1) to the designed spaces and capacity",
-        "header": "/src/images/SAT-1-905x613.jpg",
+        "header": "./src/images/SAT-1-905x613.jpg",
         "buttonName": "SAT1",
         "linked": "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/suvarnabhumi_airport_SAT-1"
     },
@@ -29,7 +29,7 @@ const work_experience = [
         "position": "Nondestructive Testing Technician",
         "company": "Thai Nondestructive Testing Co.Ltd",
         "summary": "Do field inspection of gas systems in buildings, and write the inspection reports for submission to Deparment of Energy Business (DOEB)",
-        "header": "/src/images/Non-Destructive-Testing-NDT.webp",
+        "header": "./src/images/Non-Destructive-Testing-NDT.webp",
         "buttonName": "thai-ndt",
         "linked": "https://www.tndt.co.th/th/landing-page/"
     }

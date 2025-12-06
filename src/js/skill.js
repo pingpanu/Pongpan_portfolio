@@ -4,32 +4,32 @@ const skills = [
     {
         "name": "Python",
         "summary": `- Backend: Django \n- Mathematical: Numpy, MathplotLib`,
-        "header": "/src/images/python.png",
+        "header": "./src/images/python.png",
     },
     {
         "name": "Javascript & Typescript",
         "summary": `- Backend: Node & NestJS \n- Frontend: Vue`,
-        "header": "/src/images/javascript-logo.webp",
+        "header": "./src/images/javascript-logo.webp",
     },
     {
         "name": "3D Modelling",
         "summary": `- Animation object: Blender \n- Engineering Drawing: AutoCAD, SolidWork, Revit`,
-        "header": "/src/images/autodesk.png",
+        "header": "./src/images/autodesk.png",
     },
     {
         "name": "Git control",
         "summary": `As an experienced Github user, I can do git control, branches, \nand understand Git development procedure`,
-        "header": "/src/images/Git-logo-vector-01.svg",
+        "header": "./src/images/Git-logo-vector-01.svg",
     },
     {
         "name": "Databases",
         "summary": `- Type: SQL (i.e. PostgresQL) and NoSQL (MongoDB)\n- Can make APIs call for databases`,
-        "header": "/src/images/dbs.jpg",
+        "header": "./src/images/dbs.jpg",
     },
     {
         "name": "Linux-based OS",
         "summary": `- My Notebook use Ubuntu\n- Experienced Debian setter, good for server management\n- Can use Docker`,
-        "header": "/src/images/linux-logo.png",
+        "header": "./src/images/linux-logo.png",
     }
 ];
 
