@@ -4,26 +4,34 @@ const work_experience = [
     {
         "position": "Bangkok Yellow Line Consultant",
         "company": "Professional System Engineering Co., Ltd.",
-        "duration": "June 2018 - November 2019",
         "summary": "Coordinate with Sino-Thai Engineering in mechanical systems inspection and commision.",
         "header": "/src/images/Thailand-Bangkok-Yellow-Line-monorail-Shutterstock-pic.jpg",
         "buttonName": "bangkok-yellow-line",
+        "linked": "https://www.mrta.co.th/en/the-yellow-line"
     },
     {
         "position": "Sale Support",
         "company": "Kruger Ventilation Industry Asia Co., Ltd.",
-        "duration": "September 2017 - May 2018",
         "summary": "Support the sale department with certified data, and coordinate with other department in developing new products.",
         "header": "/src/images/211.png",
         "buttonName": "kruger-ventilation",
+        "linked": "https://www.krugerfan.com/news/view/25/?lang=en"
+    },
+    {
+        "position": "HVAC Engineer",
+        "company": "Powerline Co., Ltd.",
+        "summary": "Prepare the installation of HVAC system of Suvarnabhumi Airport Sattelite Terminal 1 (SAT1) to the designed spaces and capacity",
+        "header": "/src/images/SAT-1-905x613.jpg",
+        "buttonName": "SAT1",
+        "linked": "https://suvarnabhumi.airportthai.co.th/service/way-to-airport/detail/suvarnabhumi_airport_SAT-1"
     },
     {
         "position": "Nondestructive Testing Technician",
         "company": "Thai Nondestructive Testing Co.Ltd",
-        "duration": "June 2016 - Dec 2016",
         "summary": "Do field inspection of gas systems in buildings, and write the inspection reports for submission to Deparment of Energy Business (DOEB)",
         "header": "/src/images/Non-Destructive-Testing-NDT.webp",
         "buttonName": "thai-ndt",
+        "linked": "https://www.tndt.co.th/th/landing-page/"
     }
 ];
 
@@ -48,7 +56,7 @@ export function renderExperienceCards() {
                         ${job_card.summary}
                     </p>
                     <button id=${job_card.buttonName} class="rounded-lg cursor-pointer bg-gray-300 hover:bg-gray-400 font-bold py-2 px-4">
-                        Read More
+                       <a href=${job_card.linked}>Read More</a>
                     </button>
                 </div>
             </div>
